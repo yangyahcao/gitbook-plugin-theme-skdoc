@@ -29,7 +29,7 @@ module.exports = {
             return page;
         },
         finish: function () {
-            var configOption = this.config.get('pluginsConfig')['theme-zzsk'];
+            var configOption = this.config.get('pluginsConfig')['theme-skdoc'];
             var output = configOption ? (configOption.output || '_book') : '_book';
             var pathFile;
 
@@ -57,7 +57,7 @@ module.exports = {
             pathFile = configOption && configOption.logo;
             if(pathFile){
                 var logoPath = path.join(process.cwd(), pathFile);
-                var pluginLogoPath = path.join(process.cwd(), output, 'gitbook','gitbook-plugin-theme-zzsk',"logo.png");
+                var pluginLogoPath = path.join(process.cwd(), output, 'gitbook','gitbook-plugin-theme-skdoc',"logo.png");
                 if (fs.existsSync(logoPath)) {
                     fs.writeFileSync(pluginLogoPath, fs.readFileSync(logoPath));
                 }
