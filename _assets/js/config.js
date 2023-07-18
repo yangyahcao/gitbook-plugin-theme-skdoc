@@ -48,7 +48,7 @@ function handler(defaultConfig, config) {
  * @param bookIns
  */
 function handlerAll(bookIns) {
-    var config = bookIns.config.get('pluginsConfig')['theme-zzsk'];
+    var config = bookIns.config.get('pluginsConfig')['theme-skdoc'];
     var themeDefaultConfig = bookIns.config.get('pluginsConfig')['theme-default'];
     handler(defaultConfig, config);
     handler(defaultConfig.themeDefault, themeDefaultConfig);
