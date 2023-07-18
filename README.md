@@ -7,10 +7,10 @@ Add the theme to your book's configuration `book.json` or `book.js`:
 ```js
 {
     "plugins": [
-        "theme-zzsk"
+        "theme-skdoc"
     ],
     "variables": {
-        "themeZzsk":{
+        "themeSkdoc":{
             "nav":[
                 {
                     "url":"http://...",
@@ -21,7 +21,7 @@ Add the theme to your book's configuration `book.json` or `book.js`:
         },
     },
     "pluginsConfig": {
-        "theme-zzsk":{
+        "theme-skdoc":{
             "search-placeholder":"输入关键字搜索", //搜索框提示信息
             "logo":"./logo.png", //logo地址
             "favicon": "./favicon.ico" //ico地址
