@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-theme-zzsk",
+  "name": "gitbook-plugin-theme-skdoc",
   "version": "1.2.3",
   "description": "gitbook plugin theme",
   "private":false,
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lxdreams/gitbook-plugin-theme-zzsk.git"
+    "url": "git+https://github.com/yangyachao/gitbook-plugin-theme-skdoc.git"
   },
   "keywords": [
     "gitbook",
@@ -24,14 +24,14 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lxdreams/gitbook-plugin-theme-zzsk/issues"
+    "url": "https://github.com/yangyachao/gitbook-plugin-theme-skdoc/issues"
   },
   "dependencies": {
     "cheerio": "*",
     "github-slugid": "1.0.1",
     "colors": "^1.1.2"
   },
-  "homepage": "https://github.com/lxdreams/gitbook-plugin-theme-zzsk#readme",
+  "homepage": "https://github.com/yangyachao/gitbook-plugin-theme-skdoc#readme",
   "gitbook": {
     "properties": {
       "copyButtons": {
