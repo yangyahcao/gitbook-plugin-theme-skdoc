@@ -1,0 +1,44 @@
+{
+  "name": "gitbook-plugin-theme-zzsk",
+  "version": "1.2.3",
+  "description": "gitbook plugin theme",
+  "private":false,
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxdreams/gitbook-plugin-theme-zzsk.git"
+  },
+  "keywords": [
+    "gitbook",
+    "theme",
+    "plugin"
+  ],
+  "author": {
+    "name": "lxdreams"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxdreams/gitbook-plugin-theme-zzsk/issues"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "github-slugid": "1.0.1",
+    "colors": "^1.1.2"
+  },
+  "homepage": "https://github.com/lxdreams/gitbook-plugin-theme-zzsk#readme",
+  "gitbook": {
+    "properties": {
+      "copyButtons": {
+        "default": true,
+        "title": "Adds buttons to copy the commands",
+        "type": "boolean"
+      }
+    }
+  }
+}
